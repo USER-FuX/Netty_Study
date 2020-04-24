@@ -1,5 +1,8 @@
 package xyz.fuxnet.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 功能描述: <br>
  *
@@ -11,6 +14,7 @@ package xyz.fuxnet.test;
 public class HelloWorld {
 
     public static void main(String[] args) {
-        System.out.printf("Hello World!!!!");
+        ArrayList<Object> objects = new ArrayList<>();
+        System.out.println("Hello World!!!!");
     }
 }
